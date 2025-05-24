@@ -3,221 +3,366 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Imran | Frontend Developer & Designer</title>
-    <link rel="shortcut icon" href="#" />
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Muhammad Imran's Portfolio - Frontend Developer bridging mathematics and design for elegant web solutions."
+    />
+    <title>Muhammad Imran | Frontend Developer</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <!-- --- HERO SECTIO --- -->
-    <section class="hero">
-      <div class="container">
-        <div class="hero-text-content">
-          <p class="hi">Hi, I'm</p>
-          <h1 class="name">Muhammad Imran</h1>
-          <p class="tagline">Frontend Developer &amp; UI/UX Enthusiast</p>
-          <p class="headline">
-            I craft
-            <strong style="color: #e07a5f"
-              >pixel-perfect, intuitive web experiences</strong
-            >
-            that seamlessly blend my
-            <strong style="color: #8bfd98">mathematical precision</strong> with
-            <strong style="color: #8bfd98">elegant design solutions</strong>.
-            Let's build something extraordinary.
-          </p>
-          <div class="hero-buttons">
-            <button href="projects.html" class="btn btn-primary">
-              View My Work <i class="fas fa-arrow-right"></i>
-            </button>
-            <button
-              href="mailto:imranbinmanzoor1@gmail.com"
-              class="btn btn-secondary"
-            >
-              Let's Connect <i class="fas fa-envelope"></i>
-            </button>
-          </div>
-        </div>
+  <body data-theme="dark">
+    <header>
+      <div class="header-left">
+        <a href="#hero" class="logo">MI</a>
       </div>
-    </section>
-
-    <!-- --- ABOUT ME SECTION --- -->
-
-    <section class="about-me">
-      <div class="section-intro">
-        <h4>Who I am</h4>
-        <h1>Bridging Logic & Aesthetics</h1>
-        <p>
-          My journey into frontend development is uniquely shaped by my
-          background in <strong>pure mathematics</strong>. This isn't just a
-          detail; it's the foundation of my approach.
-        </p>
+      <div class="header-right">
+        <nav>
+          <button id="expand-collapse">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="resume-link" href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <span class="icon-dark hidden">🌙</span
+          ><span class="icon-light">☀️</span>
+        </button>
       </div>
+    </header>
 
-      <div class="container">
-        <div class="my-introduction">
-          <div class="intro-wrapper">
-            <h3>From Equations to Engaging UIs</h3>
-            <p>
-              Mathematics instilled in me a rigorous analytical perspective, a
-              knack for structured problem-solving, and an unwavering attention
-              to detail. I apply this precise logic to every line of code,
-              ensuring solutions are not just functional, but also robust,
-              efficient, and scalable. My passion extends to the
-              <strong>art of user experience and intuitive design</strong>. I
-              believe that truly great web applications seamlessly marry
-              powerful functionality with delightful aesthetics. My goal is to
-              translate complex ideas into clean, accessible, and
-              high-performing interfaces that users genuinely enjoy interacting
-              with. I thrive on crafting digital experiences that are both
-              beautiful and flawlessly engineered.
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content-wrapper">
+          <div class="hero-text-content">
+            <p class="hi">Hi, I'm</p>
+            <h1 class="name">Muhammad Imran</h1>
+            <p class="tagline">Frontend Developer & UI/UX Enthusiast</p>
+            <p class="headline">
+              I craft
+              <strong>pixel-perfect, intuitive web experiences</strong> that
+              seamlessly blend my <strong>mathematical precision</strong> with
+              <strong>elegant design solutions</strong>. Let's build something
+              extraordinary.
             </p>
-          </div>
-          <div class="line"></div>
-          <div class="intro-wrapper">
-            <h3 style="color: #8bfd98">My Approach & Enthusiasm</h3>
-            <p>
-              I enjoy transforming abstract ideas into tangible, interactive web
-              experiences. Coding is about solving puzzles, optimizing
-              performance, and creating genuinely improved user interactions. I
-              advocate for
-              <strong
-                >clean code, intuitive design, and continuous learning</strong
-              >, embracing the web's evolution to deliver cutting-edge
-              solutions. My mathematical background offers a unique lens,
-              enhancing my <strong>logical deconstruction</strong> and ensuring
-              robust, visually appealing, and high-performing component
-              structures. I am committed to
-              <strong>optimizing and refining</strong> for pixel-perfect designs
-              that don't compromise on performance or accessibility.
-            </p>
-          </div>
-          <img src="images/my-pic.jpg" alt="Muhammad Imran" />
-        </div>
-      </div>
-    </section>
-
-    <!-- --- PROJECTS SECTION --- -->
-    <section class="projects">
-      <div class="section-intro">
-        <h4>My creations</h4>
-        <h1>Featured Projects</h1>
-        <p>
-          A selection of recent works that highlight my skills in front-end
-          development, responsive design, and problem-solving.
-        </p>
-      </div>
-
-      <div class="container">
-        <!-- Project 1 -->
-        <div class="project-item">
-          <div class="project-img-wrapper">
-            <img src="images/omnifood-mockup-3.png" alt="Omnifood homepage" />
-          </div>
-          <div class="project-details">
-            <h3 class="name">Omnifood Project</h3>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae consectetur debitis itaque nostrum, mollitia
-              accusantium nam veniam culpa quibusdam quos vero dolores, cumque
-              assumenda beatae quidem aperiam architecto odit voluptates?
-            </p>
-            <div class="tech-stack">
-              <ul>
-                <li>
-                  <img
-                    class="icon"
-                    src="images/icons/figma.svg"
-                    alt="Figma icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="icon"
-                    src="images/icons/html5.svg"
-                    alt="HTML icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="icon"
-                    src="images/icons/css3.svg"
-                    alt="CSS icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    class="icon"
-                    src="images/icons/javascript.svg"
-                    alt="JavaScipt icon"
-                  />
-                </li>
-              </ul>
-            </div>
-            <div class="project-links">
-              <a href="#">Live demo</a>
-              <a href="#">See code</a>
+            <div class="hero-buttons">
+              <a href="projects.html" class="btn btn-primary">
+                View My Work <i class="fas fa-arrow-right"></i>
+              </a>
+              <a
+                href="mailto:imranbinmanzoor1@gmail.com"
+                class="btn btn-secondary"
+              >
+                Let's Connect <i class="fas fa-envelope"></i>
+              </a>
             </div>
           </div>
         </div>
+      </section>
 
-        <!-- Project 2 -->
-        <div class="project-item">
-          <div class="project-img-wrapper">
-            <img src="images/modern-sign-in.png" alt="Modern Sign In Page" />
+      <section class="about" id="about">
+        <div class="container animate-on-scroll">
+          <div class="section-intro">
+            <p class="tagline">Who I Am</p>
+            <h2 class="section-title">Bridging Logic & Aesthetics</h2>
           </div>
-          <div class="project-details">
-            <h3 class="name">Modern Sign In</h3>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae consectetur debitis itaque nostrum, mollitia
-              accusantium nam veniam culpa quibusdam quos vero dolores, cumque
-              assumenda beatae quidem aperiam architecto odit voluptates?
-            </p>
-            <div class="tech-stack">
-              <ul>
-                <li><i class="fab fa-html5"></i></li>
-                <li><i class="fab fa-css3"></i></li>
-                <li><i class="fab fa-js"></i></li>
-              </ul>
+          <div class="about-content-area">
+            <div class="intro-text">
+              <h3>More Than Just a Coder...</h3>
+              <p>
+                My journey into frontend development is uniquely shaped by my
+                background in **pure mathematics**. This isn't just a detail;
+                it's the foundation of my approach. Mathematics instilled in me
+                a rigorous analytical perspective, a knack for structured
+                problem-solving, and an unwavering attention to detail. I apply
+                this precise logic to every line of code, ensuring solutions are
+                not just functional, but also robust, efficient, and scalable.
+              </p>
+              <p>
+                But logic isn't my only driver. I am deeply passionate about the
+                **art of user experience and intuitive design**. I believe that
+                truly great web applications seamlessly marry powerful
+                functionality with delightful aesthetics. My goal is to
+                translate complex ideas into clean, accessible, and
+                high-performing interfaces that users genuinely enjoy
+                interacting with. I thrive on crafting digital experiences that
+                are both beautiful and flawlessly engineered.
+              </p>
             </div>
-            <div class="project-links">
-              <a href="#">Live demo</a>
-              <a href="#">See code</a>
-            </div>
+            <img
+              src="images/my-pic-removebg-preview.jpg"
+              alt="Muhammad Imran"
+              class="about-image-subtle"
+              loading="lazy"
+            />
           </div>
         </div>
+      </section>
 
-        <!-- Project 3 -->
-        <div class="project-item">
-          <div class="project-img-wrapper">
-            <img src="images/pig-game.png" alt="Pig Game" />
-          </div>
-          <div class="project-details">
-            <h3 class="name">Pig Game</h3>
-            <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae consectetur debitis itaque nostrum, mollitia
-              accusantium nam veniam culpa quibusdam quos vero dolores, cumque
-              assumenda beatae quidem aperiam architecto odit voluptates?
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="section-intro animate-on-scroll">
+            <p class="tagline">What I Do</p>
+            <h2 class="section-title">My Expertise & Toolkit</h2>
+            <p class="section-description">
+              I leverage a diverse set of technologies to bring web applications
+              to life, focusing on modern standards and best practices.
             </p>
-            <div class="tech-stack">
-              <ul>
-                <li><i class="fab fa-html5"></i></li>
-                <li><i class="fab fa-css3"></i></li>
-                <li><i class="fab fa-js"></i></li>
-              </ul>
+          </div>
+          <div class="skills-grid animate-on-scroll">
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <h4>HTML5</h4>
+              <p>Structuring the web.</p>
             </div>
-            <div class="project-links">
-              <a href="#">Live demo</a>
-              <a href="#">See code</a>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <h4>CSS3 / Sass</h4>
+              <p>Styling pixel-perfect designs.</p>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js-square"></i>
+              <h4>JavaScript (ES6+)</h4>
+              <p>Dynamic interactions.</p>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <h4>React.js</h4>
+              <p>Building component-based UIs.</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <h4>TypeScript</h4>
+              <p>Scalable, type-safe code.</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-paint-brush"></i>
+              <h4>UI/UX Principles</h4>
+              <p>Intuitive user experiences.</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-git-alt"></i>
+              <h4>Git & GitHub</h4>
+              <p>Version control & collaboration.</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-server"></i>
+              <h4>RESTful APIs</h4>
+              <p>Connecting front & back.</p>
             </div>
           </div>
+          <a href="skills.html" class="btn btn-secondary animate-on-scroll">
+            Explore All Skills <i class="fas fa-laptop-code"></i>
+          </a>
         </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-intro animate-on-scroll">
+            <p class="tagline">My Creations</p>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">
+              A selection of recent works that highlight my skills in front-end
+              development, responsive design, and problem-solving.
+            </p>
+          </div>
+          <div class="projects-grid animate-on-scroll">
+            <div class="project-card">
+              <div class="project-image-container">
+                <img
+                  src="images/project-placeholder-1.jpg"
+                  alt="Result Calculator"
+                  class="project-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Dynamic Result Calculator</h3>
+                <p class="project-description">
+                  An intuitive web application showcasing robust client-side
+                  calculations and effective DOM manipulation for various
+                  scenarios.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/ImranDirkhan/Shaista-Result"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Result Calculator on GitHub"
+                  >
+                    Code <i class="fas fa-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image-container">
+                <img
+                  src="images/35116a0e826.png"
+                  alt="Car Website"
+                  class="project-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Sleek Auto Landing Page</h3>
+                <p class="project-description">
+                  A fully responsive and visually captivating landing page for a
+                  car dealership, built with modern CSS and engaging animations.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/ImranDirkhan/car-website"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Car Website on GitHub"
+                  >
+                    Code <i class="fas fa-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image-container">
+                <img
+                  src="images/project-placeholder-3.jpg"
+                  alt="Blog Template"
+                  class="project-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Responsive Blog Layout</h3>
+                <p class="project-description">
+                  A modular blog template optimized for readability and user
+                  experience, featuring seamless dark and light theme toggling.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/ImranDirkhan/blog-website"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Blog Template on GitHub"
+                  >
+                    Code <i class="fas fa-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image-container">
+                <img
+                  src="images/project-placeholder-4.jpg"
+                  alt="Interactive Product Viewer"
+                  class="project-image"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Interactive Product Viewer</h3>
+                <p class="project-description">
+                  A dynamic product display page built with React, demonstrating
+                  complex UI state management and seamless user interaction.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/ImranDirkhan/react-product-page"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Product Viewer on GitHub"
+                  >
+                    Code <i class="fas fa-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="projects.html" class="btn btn-primary animate-on-scroll">
+            View All Projects <i class="fas fa-grip-vertical"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container animate-on-scroll">
+          <div class="section-intro">
+            <p class="tagline">Get In Touch</p>
+            <h2 class="section-title">Let's Create Together</h2>
+            <p class="section-description">
+              Whether you have an exciting project, a collaboration idea, or
+              just want to chat about code and design, feel free to reach out.
+              I'm always open to new opportunities and interesting
+              conversations.
+            </p>
+          </div>
+          <a href="mailto:imranbinmanzoor1@gmail.com" class="btn btn-primary">
+            Send Me an Email <i class="fas fa-paper-plane"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://github.com/ImranDirkhan"
+          class="social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/your-linkedin-profile/"
+          class="social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://twitter.com/your-twitter-handle"
+          class="social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/your-instagram-handle/"
+          class="social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
       </div>
-    </section>
+      <p>
+        &copy; <span id="current-year"></span> Muhammad Imran. Crafted with
+        <span style="color: #ff6b6b">♥</span> and code.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
