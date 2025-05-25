@@ -1,3 +1,76 @@
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Black.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-BlackOblique.otf");
+  font-weight: bold;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Book.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-BookOblique.otf");
+  font-weight: normal;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Heavy.otf");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-HeavyOblique.otf");
+  font-weight: bolder;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Light.otf");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-LightOblique.otf");
+  font-weight: lighter;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-MediumOblique.otf");
+  font-weight: 500;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Oblique.otf");
+  font-weight: normal;
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("D:/Fonts & icons/Fonts/avenir-font/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ===== VARIABLES & THEMES ===== */
 :root {
   /* Dark Theme Defaults (Inspired by modern, sleek portfolios) */
