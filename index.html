@@ -40,6 +40,7 @@
     </header>
 
     <main>
+      <!-- HERO SECTION -->
       <section class="hero" id="hero">
         <div class="hero-content-wrapper">
           <div class="hero-text-content">
@@ -68,45 +69,63 @@
         </div>
       </section>
 
+      <!-- ABOUT SECTION -->
       <section class="about" id="about">
         <div class="container animate-on-scroll">
           <div class="section-intro">
             <p class="tagline">Who I Am</p>
             <h2 class="section-title">Bridging Logic & Aesthetics</h2>
+            <p class="section-description">
+              My journey into frontend development is uniquely shaped by my
+              background in <strong>pure mathematics</strong>. This isn't just a
+              detail; it's the foundation of my approach.
+            </p>
           </div>
           <div class="about-content-area">
-            <div class="intro-text">
-              <h3>More Than Just a Coder...</h3>
-              <p>
-                My journey into frontend development is uniquely shaped by my
-                background in **pure mathematics**. This isn't just a detail;
-                it's the foundation of my approach. Mathematics instilled in me
-                a rigorous analytical perspective, a knack for structured
-                problem-solving, and an unwavering attention to detail. I apply
-                this precise logic to every line of code, ensuring solutions are
-                not just functional, but also robust, efficient, and scalable.
-              </p>
-              <p>
-                But logic isn't my only driver. I am deeply passionate about the
-                **art of user experience and intuitive design**. I believe that
-                truly great web applications seamlessly marry powerful
-                functionality with delightful aesthetics. My goal is to
-                translate complex ideas into clean, accessible, and
-                high-performing interfaces that users genuinely enjoy
-                interacting with. I thrive on crafting digital experiences that
-                are both beautiful and flawlessly engineered.
-              </p>
-            </div>
             <img
-              src="images/my-pic-removebg-preview.jpg"
+              src="images/my-old-pic.jpg"
               alt="Muhammad Imran"
               class="about-image-subtle"
               loading="lazy"
             />
+            <div class="intro-text">
+              <h3>From Equations to Engaging UIs</h3>
+              <p>
+                Mathematics instilled in me a rigorous analytical perspective, a
+                knack for structured problem-solving, and an unwavering
+                attention to detail. I apply this precise logic to every line of
+                code, ensuring solutions are not just functional, but also
+                robust, efficient, and scalable.
+              </p>
+              <p>
+                My passion extends to the art of user experience and intuitive
+                design. I believe that truly great web applications seamlessly
+                marry powerful functionality with delightful aesthetics. My goal
+                is to translate complex ideas into clean, accessible, and
+                high-performing interfaces that users genuinely enjoy
+                interacting with. I thrive on crafting digital experiences that
+                are both beautiful and flawlessly engineered.
+              </p>
+              <div class="line"></div>
+              <h3>My Approach & Enthusiasm</h3>
+              <p>
+                I enjoy transforming abstract ideas into tangible, interactive
+                web experiences. Coding is about solving puzzles, optimizing
+                performance, and creating genuinely improved user interactions.
+                I advocate for clean code, intuitive design, and continuous
+                learning, embracing the web's evolution to deliver cutting-edge
+                solutions. My mathematical background offers a unique lens,
+                enhancing my logical deconstruction and ensuring robust,
+                visually appealing, and high-performing component structures. I
+                am committed to optimizing and refining for pixel-perfect
+                designs that don't compromise on performance or accessibility.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
+      <!-- SKILLS SECTIONS -->
       <section class="skills" id="skills">
         <div class="container">
           <div class="section-intro animate-on-scroll">
@@ -159,12 +178,10 @@
               <p>Connecting front & back.</p>
             </div>
           </div>
-          <a href="skills.html" class="btn btn-secondary animate-on-scroll">
-            Explore All Skills <i class="fas fa-laptop-code"></i>
-          </a>
         </div>
       </section>
 
+      <!-- PROJECTS SECTION -->
       <section class="projects" id="projects">
         <div class="container">
           <div class="section-intro animate-on-scroll">
@@ -175,127 +192,205 @@
               development, responsive design, and problem-solving.
             </p>
           </div>
-          <div class="projects-grid animate-on-scroll">
-            <div class="project-card">
-              <div class="project-image-container">
+          <div class="projects-wrapper animate-on-scroll">
+            <div class="project-item animate-on-scroll">
+              <div class="project-image-wrapper">
                 <img
-                  src="images/project-placeholder-1.jpg"
-                  alt="Result Calculator"
-                  class="project-image"
+                  src="../images/omnifood.png"
+                  alt="Omnifood Project Mockup"
                   loading="lazy"
                 />
               </div>
-              <div class="project-content">
-                <h3 class="project-title">Dynamic Result Calculator</h3>
-                <p class="project-description">
-                  An intuitive web application showcasing robust client-side
-                  calculations and effective DOM manipulation for various
+              <div class="project-details">
+                <h3>Omnifood</h3>
+                <p class="description">
+                  Intuitive web app for precise, real-time client-side result
+                  calculations. Features dynamic input fields, robust
+                  validation, and immediate feedback for various scoring
                   scenarios.
                 </p>
+                <div class="tech-stack">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                  <span>DOM Manipulation</span>
+                </div>
                 <div class="project-links">
                   <a
-                    href="https://github.com/ImranDirkhan/Shaista-Result"
-                    class="project-link"
+                    href="https://imrandirkhan.github.io/omnifood-project/"
+                    class="btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="View Result Calculator on GitHub"
                   >
-                    Code <i class="fas fa-code"></i>
+                    Live Demo <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="https://github.com/ImranDirkhan/omnifood-project"
+                    class="btn btn-secondary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Source Code <i class="fas fa-code"></i>
                   </a>
                 </div>
               </div>
             </div>
 
-            <div class="project-card">
-              <div class="project-image-container">
+            <div class="project-item animate-on-scroll">
+              <div class="project-image-wrapper">
                 <img
-                  src="images/35116a0e826.png"
-                  alt="Car Website"
-                  class="project-image"
+                  src="../images/modern-sign-in.png"
+                  alt="Modern Sign In Page Mockup"
                   loading="lazy"
                 />
               </div>
-              <div class="project-content">
-                <h3 class="project-title">Sleek Auto Landing Page</h3>
-                <p class="project-description">
-                  A fully responsive and visually captivating landing page for a
-                  car dealership, built with modern CSS and engaging animations.
+              <div class="project-details">
+                <h3>Modern Sign In Page</h3>
+                <p class="description">
+                  A visually captivating and fully responsive landing page for a
+                  modern car dealership. Built with cutting-edge CSS, featuring
+                  engaging animations and seamless user experience.
                 </p>
+                <div class="tech-stack">
+                  <span>HTML5</span>
+                  <span>CSS3 (Flexbox/Grid)</span>
+                  <span>JavaScript</span>
+                  <span>Responsive Design</span>
+                </div>
                 <div class="project-links">
+                  <a
+                    href="https://your-car-website-live-demo.com"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo <i class="fas fa-external-link-alt"></i>
+                  </a>
                   <a
                     href="https://github.com/ImranDirkhan/car-website"
-                    class="project-link"
+                    class="btn btn-secondary"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="View Car Website on GitHub"
                   >
-                    Code <i class="fas fa-code"></i>
+                    Source Code <i class="fas fa-code"></i>
                   </a>
                 </div>
               </div>
             </div>
 
-            <div class="project-card">
-              <div class="project-image-container">
+            <div class="project-item animate-on-scroll">
+              <div class="project-image-wrapper">
                 <img
-                  src="images/project-placeholder-3.jpg"
-                  alt="Blog Template"
-                  class="project-image"
+                  src="../images/pig-game.png"
+                  alt="Pig Game Mockup"
                   loading="lazy"
                 />
               </div>
-              <div class="project-content">
-                <h3 class="project-title">Responsive Blog Layout</h3>
-                <p class="project-description">
-                  A modular blog template optimized for readability and user
-                  experience, featuring seamless dark and light theme toggling.
+              <div class="project-details">
+                <h3>Pig Game</h3>
+                <p class="description">
+                  A classic dice game implemented with interactive JavaScript,
+                  showcasing game logic, DOM manipulation, and clear visual
+                  feedback for an engaging user experience.
                 </p>
+                <div class="tech-stack">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                  <span>Game Logic</span>
+                </div>
                 <div class="project-links">
                   <a
-                    href="https://github.com/ImranDirkhan/blog-website"
-                    class="project-link"
+                    href="https://your-pig-game-live-demo.com"
+                    class="btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="View Blog Template on GitHub"
                   >
-                    Code <i class="fas fa-code"></i>
+                    Live Demo <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="https://github.com/ImranDirkhan/pig-game"
+                    class="btn btn-secondary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Source Code <i class="fas fa-code"></i>
                   </a>
                 </div>
               </div>
             </div>
 
-            <div class="project-card">
-              <div class="project-image-container">
+            <div class="project-item animate-on-scroll">
+              <div class="project-image-wrapper">
                 <img
-                  src="images/project-placeholder-4.jpg"
-                  alt="Interactive Product Viewer"
-                  class="project-image"
+                  src="../images/academic-result.png"
+                  alt="Academic Result Viewer Mockup"
                   loading="lazy"
                 />
               </div>
-              <div class="project-content">
-                <h3 class="project-title">Interactive Product Viewer</h3>
-                <p class="project-description">
-                  A dynamic product display page built with React, demonstrating
-                  complex UI state management and seamless user interaction.
+              <div class="project-details">
+                <h3>Academic Result Viewer</h3>
+                <p class="description">
+                  A dynamic application for displaying academic results,
+                  featuring data filtering, sorting, and a clean, responsive
+                  interface for easy navigation and information retrieval.
                 </p>
+                <div class="tech-stack">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                  <span>Data Handling</span>
+                </div>
                 <div class="project-links">
                   <a
-                    href="https://github.com/ImranDirkhan/react-product-page"
-                    class="project-link"
+                    href="https://your-academic-result-live-demo.com"
+                    class="btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="View Product Viewer on GitHub"
                   >
-                    Code <i class="fas fa-code"></i>
+                    Live Demo <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="https://github.com/ImranDirkhan/academic-result"
+                    class="btn btn-secondary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Source Code <i class="fas fa-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-item animate-on-scroll">
+              <div class="project-image-wrapper">
+                <img
+                  src="https://placehold.co/800x600/1B263B/C89F82?text=Next+Project+Coming+Soon"
+                  alt="Future Project Placeholder"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-details">
+                <h3>Your Next Big Idea</h3>
+                <p class="description">
+                  Have a new project in mind? This slot is reserved for my next
+                  exciting creation. I'm always eager to take on new challenges
+                  and transform concepts into stunning web realities.
+                </p>
+                <div class="tech-stack">
+                  <span>React.js</span>
+                  <span>TypeScript</span>
+                  <span>Node.js (basic)</span>
+                  <span>Next.js</span>
+                </div>
+                <div class="project-links">
+                  <a href="#contact" class="btn btn-primary">
+                    Let's Discuss <i class="fas fa-lightbulb"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <a href="projects.html" class="btn btn-primary animate-on-scroll">
-            View All Projects <i class="fas fa-grip-vertical"></i>
-          </a>
         </div>
       </section>
 
